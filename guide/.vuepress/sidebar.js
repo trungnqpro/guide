@@ -1,42 +1,4 @@
 module.exports = {
-	'/commando/': [
-		{
-			title: 'Home',
-			children: [
-				'/',
-				'/requesting-more-content',
-			],
-		},
-		{
-			title: 'Getting Started',
-			children: [
-				'/commando/',
-				'/commando/first-command',
-			],
-		},
-		{
-			title: 'Extra Command Info',
-			children: [
-				'/commando/throttling',
-				'/commando/guild-only',
-				'/commando/permissions',
-			],
-		},
-		{
-			title: 'Arguments',
-			children: [
-				'/commando/args',
-				'/commando/validators',
-			],
-		},
-		{
-			title: 'Additional Information',
-			children: [
-				'/commando/client-values',
-				'/commando/unknown-command-response',
-			],
-		},
-	],
 	'/': [
 		{
 			title: 'Home',
@@ -46,89 +8,47 @@ module.exports = {
 			],
 		},
 		{
-			title: 'Installations & Preparations',
+			title: 'Getting Started',
 			children: [
-				'/preparations/',
-				'/preparations/setting-up-a-linter',
-				'/preparations/setting-up-a-bot-application',
-				'/preparations/adding-your-bot-to-servers',
+				'/getting-started',
 			],
 		},
 		{
-			title: 'Creating Your Bot',
+			title: 'HTTP API',
 			children: [
-				'/creating-your-bot/',
-				'/creating-your-bot/configuration-files',
-				'/creating-your-bot/adding-more-commands',
-				'/creating-your-bot/commands-with-user-input',
+				'/http-api',
 			],
 		},
 		{
-			title: 'Command Handler',
+			title: 'Public HTTP API Methods',
 			children: [
-				'/command-handling/',
-				'/command-handling/dynamic-commands',
-				'/command-handling/adding-features',
+				'/public-http-api-methods',
 			],
 		},
 		{
-			title: 'Popular Topics',
+			title: 'Private HTTP API Methods',
 			children: [
-				'/popular-topics/embeds',
-				'/popular-topics/permissions',
-				'/popular-topics/permissions-extended',
-				'/popular-topics/reactions',
-				'/popular-topics/collectors',
-				'/popular-topics/canvas',
-				'/popular-topics/common-questions',
-				'/popular-topics/miscellaneous-examples',
+				'/private-http-api-methods',
 			],
 		},
 		{
-			title: 'Miscellaneous',
+			title: 'Websocket API',
 			children: [
-				'/miscellaneous/parsing-mention-arguments',
-				'/miscellaneous/useful-packages',
+				'/websocket-api',
 			],
 		},
 		{
-			title: 'Databases',
+			title: 'Reference',
 			children: [
-				'/sequelize/',
-				'/sequelize/currency',
-				'/keyv/',
+				'/reference',
 			],
 		},
 		{
-			title: 'Sharding',
+			title: 'Changelog',
 			children: [
-				'/sharding/',
-				'/sharding/additional-information',
-				'/sharding/extended',
+				'/change-log',
 			],
 		},
-		{
-			title: 'OAuth2',
-			children: [
-				'/oauth2/',
-			],
-		},
-		{
-			title: 'Improving Your Dev Environment',
-			children: [
-				'/improving-dev-environment/pm2',
-				'/improving-dev-environment/package-json-scripts',
-			],
-		},
-		{
-			title: 'Additional Information',
-			children: [
-				'/additional-info/notation',
-				'/additional-info/es6-syntax',
-				'/additional-info/collections',
-				'/additional-info/async-await',
-				'/additional-info/rest-api',
-			],
-		},
+		
 	],
 };

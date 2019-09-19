@@ -1,13 +1,13 @@
 const sidebar = require('./sidebar.js');
 
 const config = {
-	title: 'Discord.js Guide',
-	description: 'A guide made by the community of discord.js for its users.',
+	title: 'Bcnex.net Docs',
+	description: 'Bcnex Exchange Platform Documentation',
 	head: [
 		['link', { rel: 'icon', href: '/favicon.png' }],
 		['meta', { name: 'theme-color', content: '#42b983' }],
 		['meta', { name: 'twitter:card', content: 'summary' }],
-		['meta', { name: 'og:title', content: 'Discord.js Guide' }],
+		['meta', { name: 'og:title', content: 'API Docs' }],
 		['meta', { name: 'og:description', content: 'A guide made by the community of discord.js for its users.' }],
 		['meta', { name: 'og:type', content: 'website' }],
 		['meta', { name: 'og:url', content: 'https://discordjs.guide/' }],
@@ -30,12 +30,8 @@ const config = {
 				link: '/',
 			},
 			{
-				text: 'Commando',
-				link: '/commando/',
-			},
-			{
-				text: 'Discord.js Documentation',
-				link: 'https://discord.js.org/#/docs/main/stable/general/welcome',
+				text: 'Bcnex.net',
+				link: 'https://www.bcnex.net',
 			},
 		],
 		sidebar,

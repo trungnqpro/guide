@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "lint": "eslint . --ext js,md,vue",
-    "serve": "vuepress dev guide",
+    "dev": "vuepress dev guide",
     "build": "vuepress build guide"
   },
   "repository": "https://github.com/discordjs/guide.git",
